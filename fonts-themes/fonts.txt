@@ -1,0 +1,4 @@
+ttf-ubuntu-nerd
+ttf-ubuntu-mono-nerd
+arc-gtk-theme
+papirus-icon-theme

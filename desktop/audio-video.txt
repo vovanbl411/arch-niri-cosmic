@@ -1,0 +1,15 @@
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+wireplumber
+gst-libav
+gst-plugin-pipewire
+ffmpeg
+intel-media-driver
+libva-intel-driver
+vulkan-intel
+lib32-vulkan-mesa-layers
+lib32-pipewire-v4l2
+lib32-libva-intel-driver
+sof-firmware

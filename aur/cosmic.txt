@@ -1,0 +1,7 @@
+cosmic-edit-git
+cosmic-initial-setup
+cosmic-player-git
+cosmic-session-git
+cosmic-store-git
+cosmic-term-git
+cosmic-wallpapers-git

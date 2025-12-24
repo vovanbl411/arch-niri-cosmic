@@ -1,0 +1,7 @@
+niri
+niri-wallpapers
+niri-session
+nwg-look
+matugen
+wl-clipboard
+fuzzel

@@ -1,0 +1,9 @@
+discord
+firefox
+keepassxc
+kitty
+mattermost-desktop
+obsidian
+spotify-launcher
+telegram-desktop
+vesktop

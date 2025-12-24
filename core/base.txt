@@ -1,0 +1,15 @@
+cliphist
+fuzzel
+mako
+matugen
+nwg-look
+polkit-kde-agent
+qt5-wayland
+qt6ct
+swaybg
+swayidle
+swaylock
+wl-clipboard
+wlsunset
+xdg-desktop-portal-gnome
+xdg-desktop-portal-gtk

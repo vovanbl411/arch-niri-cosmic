@@ -14,3 +14,5 @@ v4l2loopback-dkms-git
 visual-studio-code-bin
 windscribe-v2-bin
 zoom
+onlyoffice-bin
+visual-studio-code-bin
