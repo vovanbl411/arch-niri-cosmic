@@ -1,3 +1,6 @@
 ttf-ubuntu-nerd
 ttf-ubuntu-mono-nerd
 papirus-icon-theme
+qt5ct
+qt6ct
+kvantum
