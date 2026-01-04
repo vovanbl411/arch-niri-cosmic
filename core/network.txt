@@ -1,7 +1,8 @@
 iwd
 iw
 wireless_tools
-wpa_supplicant
 openssh
 dnsmasq
 wireguard-tools
+nftables-nft
+firewalld

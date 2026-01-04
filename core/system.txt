@@ -6,12 +6,10 @@ grub
 grub-btrfs
 intel-ucode
 linux-firmware
-linux-zen
 os-prober
 smartmontools
 timeshift
 udiskie
 xdg-user-dirs
 xdg-utils
-yay
 zram-generator

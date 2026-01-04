@@ -7,3 +7,4 @@ obsidian
 spotify-launcher
 telegram-desktop
 vesktop
+steam
