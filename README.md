@@ -4,30 +4,30 @@
 
 ## Описание
 
-Этот проект содержит организованные списки пакетов Arch Linux, разделенные по категориям. Это позволяет легко устанавливать предопределенные наборы пакетов при настройке новой системы.
+Этот проект содержит организованные списки пакетов Arch Linux, разделенные по категориям. Пакеты обновлены для совместимости с текущими версиями Arch Linux и включают современные компоненты: Niri (scrollable-tiling Wayland compositor), PipeWire (аудио/видео сервер), современные терминалы (Kitty, Ghostty), и полный набор инструментов разработки. Это позволяет легко устанавливать предопределенные наборы пакетов при настройке новой системы.
 
 ## Структура проекта
 
 - `core/` - базовые системные пакеты
-  - `base.txt` - базовая система и среда рабочего стола
-  - `system.txt` - системные пакеты (ядра, драйвера, загрузчик)
-  - `network.txt` - сетевые пакеты и службы
+  - `base.txt` - базовая система, терминалы (kitty, ghostty), утилиты (brightnessctl, fastfetch)
+  - `system.txt` - системные пакеты (linux-zen, systemd, dbus, polkit, sudo, pacman)
+  - `network.txt` - сетевые пакеты (NetworkManager, nftables, dhcpcd, avahi, wpa_supplicant)
 - `desktop/` - пакеты рабочего стола и приложений
-  - `apps.txt` - пользовательские приложения
-  - `audio-video.txt` - аудио/видео пакеты
-  - `greeter.txt` - средства входа в систему
-  - `niri.txt` - пакеты для среды рабочего стола Niri
+  - `apps.txt` - пользовательские приложения (firefox, discord, steam, telegram-desktop, obsidian)
+  - `audio-video.txt` - аудио/видео пакеты (pipewire, wireplumber, ffmpeg, obs-studio, gpu-screen-recorder)
+  - `greeter.txt` - средства входа в систему (greetd, greetd-tuigreet)
+  - `niri.txt` - пакеты для среды рабочего стола Niri (niri, nwg-look, matugen, xwayland-satellite)
 - `aur/` - пакеты из AUR
-  - `aur.txt` - пакеты из репозитория AUR
+  - `aur.txt` - пакеты из репозитория AUR (anydesk-bin, visual-studio-code-bin, zoom, etc.)
   - `cosmic.txt` - пакеты для среды рабочего стола COSMIC (в AUR)
 - `development/` - утилиты для разработки
-  - `utils.txt` - утилиты командной строки и инструменты разработки
+  - `utils.txt` - утилиты командной строки и инструменты разработки (bat, ripgrep, fd, neovim, rust, go, clang, llvm, zed, zellij)
 - `fonts-themes/` - шрифты и темы оформления
-  - `fonts.txt` - шрифты и темы оформления
+  - `fonts.txt` - шрифты и темы оформления (ttf-ubuntu-nerd, noto-fonts, papirus-icon-theme, adw-gtk-theme)
 - `hardware/` - драйверы и прошивки
-  - `drivers.txt` - драйверы оборудования
+  - `drivers.txt` - драйверы оборудования (bluez, bluez-utils, usbmuxd)
 - `virtualization/` - пакеты виртуализации
-  - `virt.txt` - пакеты для виртуализации
+  - `virt.txt` - пакеты для виртуализации (qemu-full, libvirt, virt-manager, swtpm, edk2-ovmf)
 - `scripts/` - скрипты установки и утилиты
   - `install.sh` - основной скрипт установки
   - `distribution-installer.sh` - скрипт установки полноценного дистрибутива

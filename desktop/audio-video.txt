@@ -18,3 +18,4 @@ lib32-libva-intel-driver
 sof-firmware
 obs-studio
 gpu-screen-recorder
+playerctl
